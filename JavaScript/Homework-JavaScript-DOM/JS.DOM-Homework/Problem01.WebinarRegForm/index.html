@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css"/>
+    <title>Problem01.WebinarRegForm</title>
+</head>
+<body>
+
+
+<div id="theForm">
+    <h1>Webinar registration form</h1>
+
+    <form action="/" method="post">
+        <div>
+            <p>First and Last name: <span>*    </span></p>
+            <input type="text" name="name" value=" " />
+
+            <p>Address:</p>
+            <input type="text" name="name" value=" " />
+
+            <p>Location:</p>
+            <input type="text" name="name" value=" " />
+
+            <p>Zip code:</p>
+            <input type="text" name="name" value=" " />
+
+            <p>Email: <span>*    </span></p>
+            <input type="email" name="name" value=" " />
+
+            <p>Phone number: <span>*    </span></p>
+            <input type="text" name="name" value=" " />
+
+            <p>Date: <span>*    </span></p>
+            <input type="date" name="name" value=" " />
+
+            <p>Include invoice</p>
+            <input type="checkbox" id="checkBox" name="name" value=" " onclick="toggleSub(this, 'divToShow');" />
+
+            <div id="divToShow">
+
+                <p>Company: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>Responsible person: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>ID code: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>Tax number: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+                <p>Company address: <span>*    </span></p>
+                <input type="text" name="name" value=" " />
+
+            </div>
+
+            <br>
+            <button type="button">Register</button>
+            <button type="button">Clear</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

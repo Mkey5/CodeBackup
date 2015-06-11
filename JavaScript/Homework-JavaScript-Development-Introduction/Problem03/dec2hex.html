@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Decimal to Hexadecimal</title>
+</head>
+<body>
+    <script>
+        var decNumber = prompt("Enter a number: ");
+        alert(convertDecToHex(decNumber));
+
+        function convertDecToHex(decNumber) {
+            var hexNumber = Number(decNumber).toString(16).toUpperCase();
+            return hexNumber;
+        }
+    </script>
+</body>
+</html>

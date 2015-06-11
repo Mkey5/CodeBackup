@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Clock</title>
+</head>
+<body>
+    <h1>The current time is:</h1>
+    <div id="result"></div>
+    <script>
+        var date = new Date;
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var seconds = date.getSeconds();
+
+        if(hours<10){
+            hours = '0' + hours;
+        }
+
+        if(minutes<10){
+            minutes = '0' + minutes;
+        }
+
+        if(seconds<10){
+            seconds = '0' + seconds;
+        }
+
+        var currentTime = document.createElement("p");
+        currentTime.innerHTML = (hours+":"+minutes+":"+seconds);
+        result.appendChild(currentTime);
+    </script>
+</body>
+</html>
