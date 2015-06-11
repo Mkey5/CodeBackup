@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial, sans-serif;
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjiYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjo4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.wrapper{
+    width: 1000px;
+    background-color:#50247D;
+}
+
+header{
+    background-image: url("resources/orion-gas-and-star-bgr.jpg");
+    display: inline-block;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 250px;
+    width: 880px;
+    border-bottom: solid 10px #34A4D4;
+    text-align: center;
+}
+
+.nav-box-one,.nav-box-two,.nav-box-three,.nav-box-four{
+    display: inline-block;
+    height: 30px;
+    background-color: white;
+    color:#50247D;
+    padding-top: 11px;
+    padding-bottom: 1px;
+    font-weight: bold;
+    width: 120px;
+    margin:45px 5px;
+    font-size: 18px;
+}
+
+#big-title{
+    font-size: 68px;
+    font-family: Oleo Script;
+}
+
+#small-title{
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 26px;
+}
+
+main{
+    width: 880px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    background-color: #EAE7EE;
+    border-top: solid 10px #865AB3;
+    border-bottom: solid 10px #35A4D9;
+    display: inline-block;
+}
+
+.main-box-one,.main-box-two{
+    display: inline-block;
+}
+
+.main-box-one{
+
+    background-color: white;
+    margin-top: 45px;
+    margin-right: 25px;
+    margin-left: 45px;
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.span-right{
+    float: right;
+    width: 80px;
+    background-color: #36A4D5;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.main-box-two{
+    width: 400px;
+    margin-top: 45px;
+}
+
+.title-box-one{
+    font-size: 48px;
+    font-family: Oleo Script;
+
+}
+
+.main-box-one > article > p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-two-box-one{
+    font-size: 26px;
+
+}
+
+.little-box-one,.little-box-two,.little-box-three,.little-box-four{
+    display: inline-block;
+}
+
+.little-wallpaper-one{
+    background-image: url("resources/02-pic1.jpg");
+    display: block;
+    width: 175px;
+    height: 140px;
+
+}
+
+.little-wallpaper-two{
+    background-image: url("resources/02-pic2.jpg");
+    display: block;
+    width: 175px;
+    height: 140px;
+
+}
+
+.little-wallpaper-three{
+    background-image: url("resources/02-pic3.jpg");
+    display: block;
+    width: 175px;
+    height: 140px;
+
+}
+
+.little-wallpaper-four{
+    background-image: url("resources/02-pic4.jpg");
+    display: block;
+    width: 175px;
+    height: 140px;
+}
+
+.article-box-two{
+    display: block;
+    width: 175px;
+    height: 100px;
+    background-color: white;
+
+}
+
+h5{
+    color: #36A4D5;
+    padding-left: 13px;
+}
+
+.article-box-two > p{
+    padding-left: 13px;
+}
+
+#quote{
+    font-family: Oleo Script;
+    font-weight: bold;
+}
+
+#span-right{
+    float: right;
+    background-color: #865AB3;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.little-box-one{
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+.little-box-two{
+    margin-bottom: 14px;
+}
+
+.little-box-three{
+    margin-right: 20px;
+    margin-bottom: 14px;
+}
+
+.little-box-four{
+    margin-bottom: 14px;
+}
+
+.nav-box-one:hover{
+    background-color: #36A4D5;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-box-two:hover{
+    background-color: #36A4D5;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-box-three:hover{
+    background-color: #36A4D5;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-box-four:hover{
+    background-color: #36A4D5;
+    cursor: pointer;
+    color: white;
+}
+
+#span-right:hover{
+    background-color: #865AB3;
+}

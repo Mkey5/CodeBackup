@@ -1,0 +1,151 @@
+*{
+    magine: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00923E ;
+}
+
+table{
+    border: 1px solid #000000;
+    border-collapse: separate;
+    width: 855px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 12px;
+}
+
+th{
+    background-color: #F8C711;
+    border-right: solid 1px #000000;
+    border-left: solid 1px #000000;
+    font-size: 20px;
+    padding: 5px;
+    height: 35px;
+    font-weight: bold;
+    font-family: verdana;
+}
+th:first-child{
+    border-top-left-radius: 12px;
+}
+
+th:last-child{
+    border-top-right-radius: 12px;
+    border-right: none;
+}
+
+tr:nth-child(2n){
+    background-color: #ffffff;
+}
+
+tr:nth-child(2n+1){
+    background-color: #c8c8c8;
+}
+
+tr:last-child td:first-child{
+    border-bottom-left-radius: 12px;
+}
+
+tr:last-child td:last-child{
+    border-bottom-right-radius: 12px;
+}
+
+td{
+    height: 35px;
+    padding: 5px;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+td:last-child{
+    border-right: none;
+}
+
+tr:last-child td{
+    border-bottom: none;
+}
+
+.right{
+    text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.flag{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.it{
+    background: url(images/it.png);
+}
+
+.br{
+    background: url(images/br.png);
+}
+.es{
+    background: url(images/es.png);
+}
+.nl{
+    background: url(images/nl.png);
+}
+.en{
+    background: url(images/en.png);
+}
+.ba{
+    background: url(images/ba.png);
+}
+.pt{
+    background: url(images/pt.png);
+}
+.ar{
+    background: url(images/ar.png);
+}
+.de{
+    background: url(images/de.png);
+}
+.mx{
+    background: url(images/mx.png);
+}
+
+select{
+    width: 34px;
+    background-color: #dcdcdc;
+    color: red;
+    padding: 5px 0;
+    border: 1px solid #bdbdbd;
+    font-size: 14px;
+}
+
+.green{
+    color: green;
+}
+.green-options{
+    color: #008000;
+}
+
+a{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 34px;
+    text-decoration: none;
+    font-size: 12px;
+    border: 2px solid #888888;
+}
+.BET-green{
+    background-color: #008000;
+}
+
+.BET-red{
+    background-color: red;
+}
+
+

@@ -1,0 +1,41 @@
+*{
+    magine: 0px;
+    padding: 0px;
+}
+
+table{
+    background: #000000;
+    width: 900px;
+    margin: 50px auto;
+    border-radius: 15px;
+}
+.center{
+    height: 70px;
+    font-size: 52px;
+    text-align: center;
+    vertical-align: middle;
+    color: #F2C106;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+iframe{
+    border: 3px #F2C106 solid ;
+}
+
+.for-iframe{
+    width:420px;
+    height: 300px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: #ffffff;
+    font-style: italic;
+}
+
+a:hover{
+    background-color: #F2C106;
+}

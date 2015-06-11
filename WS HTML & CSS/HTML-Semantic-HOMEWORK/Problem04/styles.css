@@ -1,0 +1,22 @@
+main{
+    border-top: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+}
+h1{
+    font-weight: normal;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+nav a, nav a:visited{
+    color: rgb(169, 169, 169);
+
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 10%;
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:Yanone Kaffeesatz;
+    src: url(yanonekaffeesatz-regular-webfont.ttf);
+}
+body{
+    background-image: url("form-background.png");
+    font-family: Yanone Kaffeesatz , aril , sans-serif;
+    color: grey;
+}
+
+main{
+    position: relative;
+    margin-top: 3%;
+    margin-left:35%;
+    margin-right:35%;
+
+
+}
+header{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px white;
+}
+input{
+    font-family: helvetica , arial;
+}
+
+.img-1{
+    margin-top:27%;
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.img-2{
+    display: inline-block;
+    position:absolute;
+    width: 100%;
+    margin-top:62%;
+    z-index: 3;
+}
+
+article{
+    background-image: url(letter-background.png);
+    width: 70%;
+    margin-left: 10%;
+    position:absolute;
+    z-index: 2;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+input{
+
+    border: 1px solid grey;
+    border-radius: 3px;
+    line-height: 20px;
+
+    cursor: text;
+    direction: ltr;
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+
+#message{
+    height: 100px;
+    width: 100%;
+    background-image: url(letter-background.png);
+}
+
+#name{
+    background-image: url(letter-background.png);
+    height: 40px;
+    width: 100%;
+}
+
+#email{
+    background-image: url(letter-background.png);
+    height: 40px;
+    width: 100%;
+}
+h3{
+    font-size: 20px;
+    margin-top: 5%;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+#button{
+    top: 360px;
+    left: 200px;
+    font-size: 20px;
+    position: relative;
+    z-index: 4;
+}
+
+#button:hover{
+    background-color: #BBC9CF;
+    color: #435C70;
+    text-shadow: 1px 1px 1px white;
+    border-radius: 1px;
+}
+#button:checked{
+    background-color: white;
+}
+.opasity-text{
+    margin-top: 1%;
+    opacity: 0.5;
+}
+#email{
+    margin-bottom: 30%;
+}

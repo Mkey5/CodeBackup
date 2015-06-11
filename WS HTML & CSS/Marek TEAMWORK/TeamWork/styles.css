@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+body{
+    width: 100%;
+    background-color: #000000;
+}
+
+.wrapper{
+    margin: 10px auto;
+    width: 97%;
+    text-align: center;
+
+}
+
+.general{
+    display: inline-block;
+    width: 32%;
+    height: 0;
+    padding-bottom: 18%;
+    border: 1px solid #000000;
+    background-color: #ffff99;
+    margin: 5px;
+}
+
+.video-box-1{
+
+}
+
+.text-box{
+
+}
+
+.fun-box-1{
+
+}
+
+.team-box-1{
+
+}
+
+.softuni-box-1{
+
+}

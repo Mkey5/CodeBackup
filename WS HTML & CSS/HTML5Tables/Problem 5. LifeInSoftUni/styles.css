@@ -1,0 +1,49 @@
+table{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+table td{
+    height: 60px;
+    padding: 5px;
+    min-width: 70px;
+}
+table tr td table {
+    width: 150px;
+}
+table tr td table td{
+    height: 40px;
+}
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+.top-left {
+    vertical-align: top;
+}
+.top-right {
+    text-align: right;
+    vertical-align: top;
+}
+.top-center {
+    text-align: center;
+    vertical-align: top;
+}
+.left-center {
+    vertical-align: middle;
+}
+.bottom {
+    text-align: center;
+    vertical-align: bottom;
+}
+.right-bottom {
+    text-align: right;
+    vertical-align: bottom;
+}
+.left-bottom {
+    vertical-align: bottom;
+}
+.right-center {
+    text-align: right;
+    vertical-align: middle;
+}
