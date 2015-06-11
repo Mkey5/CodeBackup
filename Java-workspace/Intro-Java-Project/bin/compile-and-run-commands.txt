@@ -1,0 +1,10 @@
+To list all the possible directories :
+Command: ls
+Then to go to the directory you need:
+Command: cd workspace/Intro-Java-Project/src
+Then to compile
+Command: javac SumTwoNumbers.java
+Then the file SumTwoNumbers.class is created 
+Then to run the program
+Command: java SumTwoNumbers
+And the program works perfectly!
